@@ -1,0 +1,46 @@
+.dashboard-container {
+    width: 100%;
+}
+
+.user-info {
+    margin: 6rem auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 4rem;
+    height: auto;
+}
+
+.user-card1 {
+    border-radius: 10px;
+    padding: 30px;
+    position: fixed;
+    right: 15%;
+    top: 17.2%;
+}
+
+.actions-container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+
+.user-card {
+    border: 1px solid rgb(55 65 81);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.border-bot-1 {
+    border-bottom: 1px solid rgb(55 65 81);
+}
+
+.comment-container {
+
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
